@@ -78,7 +78,7 @@ module Rails
         template "routes.rb"
         template "application.rb"
         template "environment.rb"
-        template "tokens.yml"
+        template "secrets.yml.tt"
 
         directory "environments"
         directory "initializers"
